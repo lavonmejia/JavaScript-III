@@ -1,10 +1,13 @@
 /* The for principles of "this";
 * in your own words. explain the four principle for the "this" keyword below.
 *
-* 1. 
-* 2. 
-* 3. 
-* 4. 
+* 1.  Global/Window: when here, value will be the window or console object
+* 2.  Implicit binding: when you use  the period to refer to a method  
+or property of an object the object being referenced is assumed to be the object preceding the reference
+* 3.  New binding: whenever a constructor function is called, this is a reference to a specific 
+instance of the object that is created
+* 4.  Explicit binding: whenever the call or or apply method is used this is explicitly defined
+
 *
 * write out a code example of each explanation above
 */
@@ -16,7 +19,7 @@
     console.log(this);
     return item;
   }
-  sayName("rice");
+  sayFood("rice");
 
 
 // Principle 2
